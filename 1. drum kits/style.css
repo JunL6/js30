@@ -33,7 +33,7 @@ body {
   margin: 0.3rem;
   padding: 1rem;
   background: rgba(0, 0, 0, 0.75);
-  transition: all 0.7s;
+  transition: all 0.09s;
 }
 
 .playing {
