@@ -15,8 +15,10 @@
 // });
 
 function addTransistion(e) {
-  const keyCode = e.charCode;
-  //   console.log(keyCode);s
+  let keyCode = e.charCode;
+
+  keyCode = keyCode > 90 ? keyCode - 32 : keyCode;
+
   const audio = document.querySelector(`audio[data-key="${keyCode}"]`);
   if (!audio) {
     return;
